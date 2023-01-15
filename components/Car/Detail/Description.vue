@@ -2,12 +2,18 @@
   <div>
     <div class="mt-5">
       <p class="mb-10">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, ducimus?
+        {{ description }}
       </p>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const props = defineProps({
+  description: {
+    type: String,
+  },
+});
+</script>
 
 <style lang="scss" scoped></style>
