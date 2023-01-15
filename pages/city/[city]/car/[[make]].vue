@@ -1,7 +1,7 @@
 <template>
-  <!-- Car cards -->
-  <CarCards />
-  <!-- Car cards -->
+  <div>
+    <CarCards />
+  </div>
 </template>
 
 <script setup></script>

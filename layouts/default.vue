@@ -1,8 +1,7 @@
 <template>
   <div>
-    <div class="w-full">
-      <CarCard />
-    </div>
+    <NavBar />
+    <slot />
   </div>
 </template>
 
