@@ -6,29 +6,72 @@
     >
       <a href="" class="text-3xl font-mono">cartrader</a>
     </header>
+    <!-- NavBar -->
 
-    <!-- Home Hero -->
+    <!-- Cars page -->
     <div
-      class="relative h-screen w-100 bg-no-repeat bg-cover bg-bottom bg-[url('https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')]"
+      class="mx-auto mt-4 max-w-7xl space-y-4 px-4 xs:px-8 sm:px-10 lg:px16 pb-16 w-3/5"
     >
-      <div class="z-10 absolute w-full h-full flex justify-center items-center">
-        <div class="text-center w-1/2">
-          <h1 class="text-8xl font-serif mb-10 text-white">Find your drive</h1>
-          <!-- Home Search Bar -->
+      <div class="mt-32 flex">
+        <!-- Car sideBar -->
+        <div class="shadow border w-64 mr-10 z-30 h-[190px]">
           <div
-            class="font-serif w-[1000px] text-2xl rounded-full bg-white flex justify-between overflow-hidden drop-shadow-2xl mx-auto"
+            class="p-5 flex justify-between relative cursor-pointer border-b"
           >
-                  <input
-            type="text"
-            class="py-3 px-5 w-full text-2xl rounded-full focus:outline-none"
-            placeholder="Search by city..."
-          />
-          <button class="bg-sky-500 px-10 text-white">Search</button>
+            <h3>Location</h3>
+            <h3 class="text-blue-400 capitalize">Toronto</h3>
+            <!-- <div class="absolute border shadow left-56 p-5 top-1 -m-1 bg-white">
+              <input type="text" class="border p-1 rounded" />
+              <button class="bg-blue-400 w-full mt-2 rounded text-white p-1">
+                Apply
+              </button>
+            </div> -->
           </div>
-  
+
+          <div
+            class="p-5 flex justify-between relative cursor-pointer border-b"
+          >
+            <h3>Make</h3>
+            <h3 class="text-blue-400 capitalize">Toyota</h3>
+          </div>
+
+          <div
+            class="p-5 flex justify-between relative cursor-pointer border-b"
+          >
+            <h3>Price</h3>
+            <h3 class="text-blue-400 capitalize">Any</h3>
+          </div>
         </div>
+        <!-- Car sideBar -->
+
+        <!-- Car cards -->
+        <div class="w-full">
+          <!-- Car card -->
+          <div
+            class="shadow border w-full overflow-hidden mb-5 cursor-pointer h-[200px]"
+          >
+            <div class="flex h-full">
+              <img
+                src="https://carwow-uk-wp-3.imgix.net/Volvo-XC40-white-scaled.jpg"
+                alt="Car image"
+                class="w-[300px] h-full"
+              />
+              <div class="p-4 flex flex-col">
+                <div class="">
+                  <h1 class="text-2xl text-blue-700">Volvo XC40</h1>
+                  <p class="text-gray-700">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <h1 class="mt-auto text-xl">$39,555</h1>
+              </div>
+            </div>
+          </div>
+          <!-- Car card -->
+        </div>
+        <!-- Car cards -->
       </div>
-      <div class="z-1 absolute w-full h-full bg-black opacity-50"></div>
     </div>
+    <!-- Cars page -->
   </div>
 </template>
